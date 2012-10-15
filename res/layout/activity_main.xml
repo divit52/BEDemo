@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#60AFFE" >
+
+    <TextView
+        android:id="@+id/tV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="47dp"
+        android:text="BE Nina Demo"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#35586C" />
+
+    <EditText
+        android:id="@+id/eTPut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tV1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="76dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bNext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Next Activity" />
+
+    <Button
+        android:id="@+id/bConv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bNext"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="19dp"
+        android:text="Convert To Text" />
+
+    <Button
+        android:id="@+id/bSay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bConv"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:text="Say Out Loud" />
+
+</RelativeLayout>
